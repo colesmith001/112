@@ -1,0 +1,11 @@
+{% extends "base.html"%}
+{% load static %}
+
+{% block title%} About page {% endblock%}
+
+{%block content%}
+  <h1>About Page</h1>
+  <p>Welcome to coles convenience! What started as a passion for [product/craft/industry] has grown into a curated collection designed to bring [main benefit/feeling, e.g., style, convenience, joy] into your everyday life. We believe in quality, attention to detail, and creating products that you’ll love as much as we loved creating/finding them. Thanks for being a part of our journey!</p>
+
+  <img src="{% static 'img/112 photo.jpg' %}" alt="About Image" class="img-fluid">
+{% endblock %}
